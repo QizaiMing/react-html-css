@@ -1,39 +1,19 @@
-h2:hover {
-  color: red;
+body {
+  background: rgb(204, 229, 255, 0.4);
 }
 
-.about-me {
-  color: blue;
+#title {
+  color: rgb(186, 133, 9);
 }
 
-#services {
-  color: green;
+.subtitle {
+  color: rgb(200, 148, 30);
 }
 
-/* li:nth-child(2) {
-  color: steelblue;
-} */
+#service-image {
+  height: 272px;
+  width: 70%;
 
-/* li:only-child {
-  color: purple;
-} */
-
-/* a:link {
-  color: blue;
+  background: linear-gradient(215deg, rgb(94, 255, 126), rgb(94, 255, 126, 0));
+  background-size: cover;
 }
-
-a:visited {
-  color: red;
-} */
-
-h2 + a {
-  color: red;
-}
-
-ul > li {
-  color: royalblue;
-}
-
-/* ul li {
-  color: green;
-} */

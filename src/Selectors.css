@@ -1,0 +1,53 @@
+/* selector {
+  property: value;
+  property2: value2;
+  property3: value3;
+} */
+
+h2:hover {
+  color: red;
+}
+
+.about-me {
+  color: blue;
+}
+
+#services {
+  color: green;
+}
+
+/* li:nth-child(2) {
+  color: steelblue;
+} */
+
+/* li:only-child {
+  color: purple;
+} */
+
+/* a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+} */
+
+h2 + a {
+  color: red;
+}
+
+ul > li {
+  color: royalblue;
+}
+
+/* ul li {
+  color: green;
+} */
+
+/* h3[class='subtitle'] {
+  color: salmon;
+} */
+
+img[src$='.png'] {
+  border: 10px solid black;
+}
