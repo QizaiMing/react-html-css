@@ -12,12 +12,12 @@ const App = () => {
       <h2 className='subtitle'>About Me</h2>
       <img src='logo512.png' alt='logo' />
       <p className='para-text'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-        officia iure ratione rerum ab, asperiores numquam accusantium hic earum
-        exercitationem aut nostrum minima recusandae similique laboriosam optio
-        iste obcaecati veritatis odio aliquam porro itaque. Eos ut doloribus
-        iste placeat expedita, fuga quo nulla. Accusamus est illo, ea provident
-        sint voluptas.
+        <span className='italics'>Lorem ipsum dolor sit amet</span>, consectetur
+        adipisicing elit. Mollitia officia iure ratione rerum ab, asperiores
+        numquam accusantium hic earum exercitationem aut nostrum minima
+        recusandae similique laboriosam optio iste obcaecati veritatis odio
+        aliquam porro itaque. Eos ut doloribus iste placeat expedita, fuga quo
+        nulla. Accusamus est illo, ea provident sint voluptas.
         <ul>
           <li className='list-item'>Excepteur sint occaaecat</li>
           <ol>
