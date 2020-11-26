@@ -10,7 +10,7 @@ const App = () => {
         ipsum quisquam quas fugit reprehenderit illum at nobis adipisci eos!
       </p>
       <h2 className='subtitle'>About Me</h2>
-      <img src='logo512.png' alt='logo' />
+      <img src='logo512.png' alt='logo' id='about-us-image' />
       <p className='para-text'>
         <span className='italics'>Lorem ipsum dolor sit amet</span>, consectetur
         adipisicing elit. Mollitia officia iure ratione rerum ab, asperiores
@@ -53,6 +53,33 @@ const App = () => {
         </tbody>
       </table>
       <div id='service-image'></div>
+      <div className='container'>
+        <div
+          className='container-item'
+          style={{ order: 4, flexGrow: 1, flexShrink: 1, flexBasis: 100 }}>
+          A
+        </div>
+        <div
+          className='container-item'
+          style={{ order: 3, flexGrow: 1, flexShrink: 3, flexBasis: 100 }}>
+          B
+        </div>
+        <div
+          className='container-item'
+          style={{ order: 5, flexGrow: 5, flexShrink: 1, flexBasis: 100 }}>
+          C
+        </div>
+        <div
+          className='container-item'
+          style={{ order: 1, flexGrow: 1, flexShrink: 1, flexBasis: 100 }}>
+          D
+        </div>
+        <div
+          className='container-item'
+          style={{ order: 2, flexGrow: 1, flexShrink: 1, flexBasis: 100 }}>
+          E
+        </div>
+      </div>
       <h2 className='subtitle'>Contact Us</h2>
       <form>
         <input type='text' placeholder='Full Name' className='form-input' />
