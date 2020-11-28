@@ -9,7 +9,9 @@ const App = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsa
         ipsum quisquam quas fugit reprehenderit illum at nobis adipisci eos!
       </p>
-      <h2 className='subtitle'>About Me</h2>
+      <h2 className='subtitle' id='about-me'>
+        About Me
+      </h2>
       <img src='logo512.png' alt='logo' id='about-us-image' />
       <p className='para-text'>
         <span className='italics'>Lorem ipsum dolor sit amet</span>, consectetur
